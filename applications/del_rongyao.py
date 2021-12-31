@@ -1,7 +1,7 @@
 import os
  
 # 输入文件夹地址
-path = r"Y:\Video\TV\你是我的荣耀"
+path = r"Z:\Video\TV\雪中悍刀行"
 files = os.listdir(path)
  
 # 输出所有文件名，只是为了看一下
@@ -14,7 +14,7 @@ for file in files:
     # old 旧名称的信息
     old = path + os.sep + files[i]
     # new是新名称的信息，这里的操作是删除了最前面的'考拉很忙o - '共8个字符
-    new = path + os.sep + file.replace('[www.domp4.cc]','')
+    new = path + os.sep + file.replace('[www.boxmp4.com]','')
     # 新旧替换
     os.rename(old,new)
     i+=1
